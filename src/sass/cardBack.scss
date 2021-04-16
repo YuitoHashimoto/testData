@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #046C20;
+}
+
+.player{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    div {
+        
+    }
+}
+
+.num {
+    border: 0.5px solid #333;
+    padding: 10px;
+    margin-bottom: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+#gameFiled{
+    text-align: center;
+}
+
+@keyframes resultDisplay {
+    0% {left: -200vh;}
+    50% {left: 0}
+    70% {left: 0}
+    100% {left: 200vh}
+}
+
+.resultModal {
+    font-family: "YuGothic";
+    padding-top: 24px;
+    text-align: center;
+    color: #260202;
+    width: 100vw;
+    height: 78px;
+    background: #F9F9F9;
+    position: absolute;
+    top: 0;
+    animation: resultDisplay  4s ease-in-out;;
+    bottom: 0;
+    margin: auto;
+    .resultTitle {
+        font-size: 28px;
+        height: 20px;
+        font-weight: bold;
+    }
+}

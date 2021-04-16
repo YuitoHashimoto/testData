@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: tomato;
+    height: 5000px;
+}
+
+
+.btnWrap{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    cursor: pointer;
+    .btn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        outline: 10px solid #333;
+        transform: rotate(45deg);
+    }
+    .btnContent{
+        left: 25px;
+        position: absolute;
+        display: inline-block;
+        width: 150px;
+        height: 10px;
+        background: #333;
+        &:nth-child(2){
+            top: 60px
+        }
+        &:nth-child(3){
+            top: 100px
+        }
+        &:nth-child(4){
+            top: 140px
+        }    
+    }
+}

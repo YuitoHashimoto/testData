@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    padding-top: 100px;
+    .box{
+        border: 1px solid #333333;
+        width: 150px;
+        padding-top: 5px;
+        margin: 0 auto;
+        input{
+            font-size: 18px;
+            width: 136px;
+            margin-left: 2px;
+            margin-bottom: 10px;
+        }
+        table {
+            tr {
+                td {
+                    cursor: pointer;
+                    font-size: 18px;
+                    user-select: none;
+                    text-align: center;
+                    padding: 10px;
+                    border: 1px solid #333;
+                }
+            }
+        }
+    }
+}
